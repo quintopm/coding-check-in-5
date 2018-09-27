@@ -1,10 +1,32 @@
-/* your CSS goes into this file. For example:
-
-p {
-  color: #ff00ff;
-  text-decoration: underline;
+h1 {
+  font-family: monospace;
+  text-align: center;
 }
 
-btw, this is a CSS comment. Feel free to delete it.
+h2 {
+  font-family: monospace;
+}
 
- */
+p#subhead {
+  font-size: 10pt;
+  font-family: monospace;
+  text-align: center;
+}
+
+p#copy {
+  text-align: center;
+  font-size: 8pt;
+}
+
+p {
+  font-family: sans-serif;
+}
+
+ul.a {
+    list-style-type: circle;
+}
+
+p.listhead {
+  font-weight: bold;
+  font-size: 11pt;
+}
